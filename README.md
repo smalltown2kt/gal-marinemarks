@@ -2,11 +2,20 @@
 
 Copyright 2025 smalltown2kt
 
-## Notes
+## Contents
 
 This project contains a set of marine marks (spars/posts) for laying out your maritime areas, rivers, marinas, harbours, and other coastal areas. They are designed to be [IALA compliant](https://www.iala.int/product/r1001/ "IALA buoyage system specification"), ensuring your project is technically correct (the best kind of correct).
 
 ![Demo set of all](img/Selection1_full.png)
+
+Set includes:
+
+* Channel 'lateral' marks
+* Preferred channel lateral split marks
+* Safe water ('fairway') marks
+* Special marks
+* Isolated danger marks
+* Cardinal marks (North, South, East and West)
 
 Each marker post is set up in a scene in the ./parts/ folder:
 
@@ -24,7 +33,7 @@ A series of 'demo' scenes have been included which were used to generate the pre
 The [International Organization for Marine Aids to Navigation](https://www.iala.int/) is the international body which specifies the style, visual and requirements for buoys and marine navigation equipment.
 For historic reasons there are two systems:
 
-* IALA System A: Used by most of the world. Port is red and starboard is green.
+* IALA System A: Used by most of the world. Port is red and starboard is green. (e.g. image below)
 * IALA System B: Used by the Americas and parts of East Asia. Starboard is red and port is green.
 
 ![IALA System A set](img/Selection2_full.png)
