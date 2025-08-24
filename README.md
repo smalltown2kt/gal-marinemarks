@@ -37,3 +37,9 @@ For historic reasons there are two systems:
 * IALA System B: Used by the Americas and parts of East Asia. Starboard is red and port is green.
 
 ![IALA System A set](img/Selection2_full.png)
+
+## Support
+
+If you find these assets useful, I'd love a coffee!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B51K7DSL)
