@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://dhk1v5rt4s5xr"]
+
+[ext_resource type="Texture2D" uid="uid://c811sj2oqrt0u" path="res://addons/marine_marks/textures/Green.png" id="1_mbj37"]
+[ext_resource type="Texture2D" uid="uid://dpqpjvprqd6ih" path="res://addons/marine_marks/textures/NormalWood.png" id="2_e7ijf"]
+
+[resource]
+albedo_texture = ExtResource("1_mbj37")
+roughness = 0.9
+normal_enabled = true
+normal_texture = ExtResource("2_e7ijf")
+heightmap_scale = 1.0
+heightmap_texture = ExtResource("2_e7ijf")

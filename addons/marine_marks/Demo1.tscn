@@ -1,0 +1,190 @@
+[gd_scene load_steps=38 format=3 uid="uid://2by7hnlkcd51"]
+
+[ext_resource type="PackedScene" uid="uid://ceg7q0loyypt2" path="res://addons/marine_marks/parts/Mark_Cardinal_North_Cylinder.tscn" id="1_11c10"]
+[ext_resource type="PackedScene" uid="uid://cu7vq70wm0okk" path="res://addons/marine_marks/parts/Mark_Cardinal_South_Cylinder.tscn" id="2_q0jqr"]
+[ext_resource type="PackedScene" uid="uid://cy0o6n84ngksy" path="res://addons/marine_marks/parts/Mark_Cardinal_East_Cylinder.tscn" id="3_qrb8d"]
+[ext_resource type="PackedScene" uid="uid://dju50n2ih3c0k" path="res://addons/marine_marks/parts/Mark_Cardinal_West_Cylinder.tscn" id="4_4tj3y"]
+[ext_resource type="PackedScene" uid="uid://dyhii2kkah8c5" path="res://addons/marine_marks/parts/Mark_Cardinal_North_Square.tscn" id="5_yaevj"]
+[ext_resource type="PackedScene" uid="uid://pq6m84aeo123" path="res://addons/marine_marks/parts/Mark_Cardinal_South_Square.tscn" id="6_w8ce0"]
+[ext_resource type="PackedScene" uid="uid://b6ps53x5yxytq" path="res://addons/marine_marks/parts/Mark_Cardinal_East_Square.tscn" id="7_vtjbi"]
+[ext_resource type="PackedScene" uid="uid://dk6cbxpc6utbn" path="res://addons/marine_marks/parts/Mark_Cardinal_West_Square.tscn" id="8_mns8v"]
+[ext_resource type="PackedScene" uid="uid://b3uluy2tokaod" path="res://addons/marine_marks/parts/Mark_IsolatedDanger_Cylinder.tscn" id="9_7aawc"]
+[ext_resource type="PackedScene" uid="uid://b22fblm8itnod" path="res://addons/marine_marks/parts/Mark_IsolatedDanger_Square.tscn" id="10_d3bcv"]
+[ext_resource type="PackedScene" uid="uid://cqcu3iqmbnc7s" path="res://addons/marine_marks/parts/Mark_SafeWater_Cylinder.tscn" id="11_i1s2b"]
+[ext_resource type="PackedScene" uid="uid://ddhbbore42gpv" path="res://addons/marine_marks/parts/Mark_SafeWater_Square.tscn" id="12_vnwyy"]
+[ext_resource type="PackedScene" uid="uid://bblpmjjveqrbh" path="res://addons/marine_marks/parts/Mark_Special_Cylinder.tscn" id="13_0hn6n"]
+[ext_resource type="PackedScene" uid="uid://dqpxpy7333i03" path="res://addons/marine_marks/parts/Mark_Special_Square.tscn" id="14_dy854"]
+[ext_resource type="PackedScene" uid="uid://lwmiqd5bpuyt" path="res://addons/marine_marks/parts/Mark_Lateral_A_Port_Cylinder.tscn" id="15_wyk72"]
+[ext_resource type="PackedScene" uid="uid://gwnmctjbe63i" path="res://addons/marine_marks/parts/Mark_Lateral_A_Port_Square.tscn" id="16_80gov"]
+[ext_resource type="PackedScene" uid="uid://cieo6ypkc4emq" path="res://addons/marine_marks/parts/Mark_Lateral_A_Starboard_Cylinder.tscn" id="17_7l7fx"]
+[ext_resource type="PackedScene" uid="uid://dwp1np12eqgn" path="res://addons/marine_marks/parts/Mark_Lateral_A_Starboard_Square.tscn" id="18_pqbml"]
+[ext_resource type="PackedScene" uid="uid://2nepu4as3eqy" path="res://addons/marine_marks/parts/Mark_Lateral_A_PortPreferred_Cylinder.tscn" id="19_p6sd7"]
+[ext_resource type="PackedScene" uid="uid://c7m2bs7lutnpp" path="res://addons/marine_marks/parts/Mark_Lateral_A_PortPreferred_Square.tscn" id="20_giqqq"]
+[ext_resource type="PackedScene" uid="uid://cl2enq48mlnhw" path="res://addons/marine_marks/parts/Mark_Lateral_A_StarboardPreferred_Cylinder.tscn" id="21_5t1xj"]
+[ext_resource type="PackedScene" uid="uid://caaprdgdgtwwm" path="res://addons/marine_marks/parts/Mark_Lateral_A_StarboardPreferred_Square.tscn" id="22_t41a1"]
+[ext_resource type="PackedScene" uid="uid://dk2l34qwyee3l" path="res://addons/marine_marks/parts/Mark_Lateral_B_Port_Cylinder.tscn" id="23_3wws6"]
+[ext_resource type="PackedScene" uid="uid://c2gplxp08wmpm" path="res://addons/marine_marks/parts/Mark_Lateral_B_Port_Square.tscn" id="24_y4sl3"]
+[ext_resource type="PackedScene" uid="uid://b0o280i2ai3vb" path="res://addons/marine_marks/parts/Mark_Lateral_B_Starboard_Cylinder.tscn" id="25_567gf"]
+[ext_resource type="PackedScene" uid="uid://boe5aed7wqedw" path="res://addons/marine_marks/parts/Mark_Lateral_B_Starboard_Square.tscn" id="26_cy4tg"]
+[ext_resource type="PackedScene" uid="uid://ctviuhc8lhiov" path="res://addons/marine_marks/parts/Mark_Lateral_B_PortPreferred_Cylinder.tscn" id="27_n8gym"]
+[ext_resource type="PackedScene" uid="uid://b3muaqqka6whb" path="res://addons/marine_marks/parts/Mark_Lateral_B_PortPreferred_Square.tscn" id="28_yuq0k"]
+[ext_resource type="PackedScene" uid="uid://cnhcmycrv6a4h" path="res://addons/marine_marks/parts/Mark_Lateral_B_StarboardPreferred_Cylinder.tscn" id="29_fchkh"]
+[ext_resource type="PackedScene" uid="uid://biymkvlyqp6xl" path="res://addons/marine_marks/parts/Mark_Lateral_B_StarboardPreferred_Square.tscn" id="30_o10gp"]
+[ext_resource type="Material" uid="uid://d2hhbvbh1m3dj" path="res://addons/marine_marks/materials/Water.tres" id="31_xp6f4"]
+[ext_resource type="Material" uid="uid://doico475ce1ac" path="res://addons/marine_marks/materials/Ground.tres" id="32_71hkk"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_mtvjw"]
+material = ExtResource("31_xp6f4")
+size = Vector3(1000, 5, 1000)
+subdivide_width = 100
+subdivide_depth = 100
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_dpim7"]
+material = ExtResource("32_71hkk")
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_dmo1d"]
+
+[sub_resource type="Sky" id="Sky_4y0hi"]
+sky_material = SubResource("ProceduralSkyMaterial_dmo1d")
+
+[sub_resource type="Environment" id="Environment_0yma2"]
+background_mode = 2
+sky = SubResource("Sky_4y0hi")
+
+[node name="Demo" type="Node3D"]
+
+[node name="Marks" type="Node3D" parent="."]
+
+[node name="Cardinal Marks" type="Node3D" parent="Marks"]
+
+[node name="Cylinders" type="Node3D" parent="Marks/Cardinal Marks"]
+
+[node name="Mark_Cardinal_North_Cylinder" parent="Marks/Cardinal Marks/Cylinders" instance=ExtResource("1_11c10")]
+
+[node name="Mark_Cardinal_South_Cylinder" parent="Marks/Cardinal Marks/Cylinders" instance=ExtResource("2_q0jqr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Mark_Cardinal_East_Cylinder" parent="Marks/Cardinal Marks/Cylinders" instance=ExtResource("3_qrb8d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Mark_Cardinal_West_Cylinder" parent="Marks/Cardinal Marks/Cylinders" instance=ExtResource("4_4tj3y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="Square" type="Node3D" parent="Marks/Cardinal Marks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Mark_Cardinal_North_Square" parent="Marks/Cardinal Marks/Square" instance=ExtResource("5_yaevj")]
+
+[node name="Mark_Cardinal_South_Square" parent="Marks/Cardinal Marks/Square" instance=ExtResource("6_w8ce0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Mark_Cardinal_East_Square" parent="Marks/Cardinal Marks/Square" instance=ExtResource("7_vtjbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Mark_Cardinal_West_Square" parent="Marks/Cardinal Marks/Square" instance=ExtResource("8_mns8v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="Isolated Danger Marks" type="Node3D" parent="Marks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Mark_IsolatedDanger_Cylinder" parent="Marks/Isolated Danger Marks" instance=ExtResource("9_7aawc")]
+
+[node name="Mark_IsolatedDanger_Square" parent="Marks/Isolated Danger Marks" instance=ExtResource("10_d3bcv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Safe Water Marks" type="Node3D" parent="Marks"]
+
+[node name="Mark_SafeWater_Cylinder" parent="Marks/Safe Water Marks" instance=ExtResource("11_i1s2b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+
+[node name="Mark_SafeWater_Square" parent="Marks/Safe Water Marks" instance=ExtResource("12_vnwyy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 5)
+
+[node name="Special Marks" type="Node3D" parent="Marks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7)
+
+[node name="Mark_Special_Cylinder" parent="Marks/Special Marks" instance=ExtResource("13_0hn6n")]
+
+[node name="Mark_Special_Square" parent="Marks/Special Marks" instance=ExtResource("14_dy854")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Lateral Marks" type="Node3D" parent="Marks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9)
+
+[node name="IALA System A" type="Node3D" parent="Marks/Lateral Marks"]
+
+[node name="Channel Marks" type="Node3D" parent="Marks/Lateral Marks/IALA System A"]
+
+[node name="Mark_Lateral_A_Port_Cylinder" parent="Marks/Lateral Marks/IALA System A/Channel Marks" instance=ExtResource("15_wyk72")]
+
+[node name="Mark_Lateral_A_Port_Square" parent="Marks/Lateral Marks/IALA System A/Channel Marks" instance=ExtResource("16_80gov")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Mark_Lateral_A_Starboard_Cylinder" parent="Marks/Lateral Marks/IALA System A/Channel Marks" instance=ExtResource("17_7l7fx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Mark_Lateral_A_Starboard_Square" parent="Marks/Lateral Marks/IALA System A/Channel Marks" instance=ExtResource("18_pqbml")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="Preferred Channel Marks" type="Node3D" parent="Marks/Lateral Marks/IALA System A"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="Mark_Lateral_A_PortPreferred_Cylinder" parent="Marks/Lateral Marks/IALA System A/Preferred Channel Marks" instance=ExtResource("19_p6sd7")]
+
+[node name="Mark_Lateral_A_PortPreferred_Square" parent="Marks/Lateral Marks/IALA System A/Preferred Channel Marks" instance=ExtResource("20_giqqq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Mark_Lateral_A_StarboardPreferred_Cylinder" parent="Marks/Lateral Marks/IALA System A/Preferred Channel Marks" instance=ExtResource("21_5t1xj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Mark_Lateral_A_StarboardPreferred_Square" parent="Marks/Lateral Marks/IALA System A/Preferred Channel Marks" instance=ExtResource("22_t41a1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="IALA System B" type="Node3D" parent="Marks/Lateral Marks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
+
+[node name="Channel Marks" type="Node3D" parent="Marks/Lateral Marks/IALA System B"]
+
+[node name="Mark_Lateral_B_Port_Cylinder" parent="Marks/Lateral Marks/IALA System B/Channel Marks" instance=ExtResource("23_3wws6")]
+
+[node name="Mark_Lateral_B_Port_Square" parent="Marks/Lateral Marks/IALA System B/Channel Marks" instance=ExtResource("24_y4sl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Mark_Lateral_B_Starboard_Cylinder" parent="Marks/Lateral Marks/IALA System B/Channel Marks" instance=ExtResource("25_567gf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Mark_Lateral_B_Starboard_Square" parent="Marks/Lateral Marks/IALA System B/Channel Marks" instance=ExtResource("26_cy4tg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="Preferred Channel Marks" type="Node3D" parent="Marks/Lateral Marks/IALA System B"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+
+[node name="Mark_Lateral_B_PortPreferred_Cylinder" parent="Marks/Lateral Marks/IALA System B/Preferred Channel Marks" instance=ExtResource("27_n8gym")]
+
+[node name="Mark_Lateral_B_PortPreferred_Square" parent="Marks/Lateral Marks/IALA System B/Preferred Channel Marks" instance=ExtResource("28_yuq0k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="Mark_Lateral_B_StarboardPreferred_Cylinder" parent="Marks/Lateral Marks/IALA System B/Preferred Channel Marks" instance=ExtResource("29_fchkh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+
+[node name="Mark_Lateral_B_StarboardPreferred_Square" parent="Marks/Lateral Marks/IALA System B/Preferred Channel Marks" instance=ExtResource("30_o10gp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.378019, 0.383251, -0.842746, 1.00495e-08, 0.910291, 0.413969, 0.925797, -0.156488, 0.344108, 0, 5, 0)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.338429, 0.29007, -0.895168, 1.18848e-08, 0.951302, 0.30826, 0.940992, 0.104324, -0.321948, -6.93005, 5.02775, 2.20005)
+fov = 50.0
+
+[node name="Water" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.5, 0)
+mesh = SubResource("BoxMesh_mtvjw")
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+transform = Transform3D(1000, 0, 0, 0, 1000, 0, 0, 0, 1000, 0, -5, 0)
+mesh = SubResource("PlaneMesh_dpim7")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_0yma2")
