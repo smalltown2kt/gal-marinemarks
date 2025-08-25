@@ -6,7 +6,7 @@ Copyright 2025 smalltown2kt
 
 This project contains a set of marine marks (spars/posts) for laying out your maritime areas, rivers, marinas, harbours, and other coastal areas. They are designed to be [IALA compliant](https://www.iala.int/product/r1001/ "IALA buoyage system specification"), ensuring your project is technically correct (the best kind of correct).
 
-![Demo set of all](img/Selection1_full.png)
+![Demo set of all](https://raw.githubusercontent.com/smalltown2kt/gal-marinemarks/refs/heads/main/img/Selection1_full.png)
 
 Set includes:
 
@@ -36,4 +36,10 @@ For historic reasons there are two systems:
 * IALA System A: Used by most of the world. Port is red and starboard is green. (e.g. image below)
 * IALA System B: Used by the Americas and parts of East Asia. Starboard is red and port is green.
 
-![IALA System A set](img/Selection2_full.png)
+![IALA System A set](https://raw.githubusercontent.com/smalltown2kt/gal-marinemarks/refs/heads/main/img/Selection2_full.png)
+
+## Support
+
+If you find these assets useful, I'd love a coffee!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B51K7DSL)
